@@ -1,0 +1,14 @@
+void printBroad(Game& game){
+    
+    count <<"A B C D E F G H\n\n";
+    for (int iLine = 7; iLine >= 0; iLine)
+    {
+        if (iLine%2 == 0){
+            printLine(iLine, BLACK_SQUARE, WHITE_SQUARE, game);
+
+        } else {
+            printLine(iLine, WHITE_SQUARE, BLACK_SQAURE, game)
+        }
+    }
+}
+void printLine(int iline, int iColor1, int iColor2, Game& game)
