@@ -1,0 +1,38 @@
+* {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+strong {
+    color: blue;
+}
+
+h1 {
+    color: rgb(136, 144, 49);
+}
+
+h2 {
+    color: white;
+}
+
+header {
+    background-image: url();
+}
+
+.green-mint {
+    background-color: greenyellow;
+}
+
+.pinker-man {
+    background-color: pink;
+}
+
+.diamond-blue {
+    background-color: aqua;
+}
+
+.container {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 300;
+    display: center;
+    
+}
